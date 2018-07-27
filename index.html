@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en-us"
+ <!DOCTYPE html>
+<html lang="en-us">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,196 +9,266 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
 
 <!-- CSS -->
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<!-- Hero -->
-  <header>
-      <nav class="container">
-        <div class="one-half">
-          <a href="index.html" class="site-logo"><img src="images/Site-logo.png" alt="keeparoo" /></a>
-        </div>
-        <div class="one-half">
-          <ul>
-            <li><a href="signin.html">Sign In</a></li>
-            <li class="signup-btn"><a href="signup.html">Sign Up</a></li>
-          </ul>
-        </div>
-      </nav>
-      <div class="container hero">
-        <h1 class="animated bounce">Share, Keep, Partner</h1>
-        <body><br/>keeparoo lets you collect and sort information into pouches.<br/>Create simple notes, keep interesting images and<br/>add important links that you can share and collaborate.<br/></body>
-        <br/><a href="signup.html" class="btn">Start Your Free Trial Today!</a>
-        <img src="images/Dashboard.png" alt="keeparoo" />
-      </div>
-  </header>
-<main role="main">
+<!-- header section -->
+<section class="header container">
 
-<!-- Benefits -->
-  <section class="benefits">
-    <ul class="container">
-      <li class="one-third">
-          <div>
-            <div class="benefits-circle">
+  <section class="logo-header">
+
+    <article class="site-logo">
+        <a href="index.html"><img src="images/new-logo.png" alt="keeparoo" /></a>
+    </article>
+
+    <article class="buttons-box">
+
+        <div class="signin-btn">
+          <a href="signin.html">Sign In</a>
+        </div>
+
+        <div class="signup-btn">
+          <a href="signup.html">Sign Up</a>
+        </div>
+
+    </article>
+
+  </section>
+
+      <!-- hero section -->
+      <div class="hero container">
+
+        <h1 class="animated bounce">Share, Keep, Partner</h1>
+
+        <p>keeparoo lets you collect and sort information into pouches.
+          Create simple notes, keep interesting images and
+          add important links that you can share and collaborate.</p>
+
+        <a href="signup.html" class="btn">Start Your Free Trial Today!</a>
+
+        <img src="images/dashboard.png" alt="keeparoo" />
+
+      </div>
+
+  </section>
+
+<!-- benefits section -->
+  <section class="benefits container">
+
+    <!--create notes-->
+    <article class="benefit-single">
+
+          <div class="benefits-circle">
             <i class="fa fa-file-o"></i>
           </div>
-          <h2>Create Notes</h2>
-          <p>Using Markdown, you can create simple text-based documents to keep and share. You can partner with others to write and edit contents.</p>
-      </li>
-       <li class="one-third">
-          <div>
-            <div class="benefits-circle">
+
+          <div class="benefits-text">
+            <h2>Create Notes</h2>
+              <p>Using Markdown, you can create simple text-based documents to keep and share. You can partner with others to write and edit contents.</p>
+          </div>
+
+    </article>
+
+      <!--keep images-->
+      <article class="benefit-single">
+
+          <div class="benefits-circle">
             <i class="fa fa-picture-o"></i>
           </div>
+
+          <div class="benefits-text">
             <h2>Keep Images</h2>
             <p>Are there images you find interesting
             enough to keep? Now you have a way to
             organize and store those within keeparoo.</p>
-      </li>
-        <li class="one-third">
-          <div>
-            <div class="benefits-circle">
+          </div>
+      </article>
+
+      <!--add links-->
+      <article class="benefit-single">
+
+          <div class="benefits-circle">
             <i class="fa fa-link"></i>
           </div>
-        <h2>Add Links</h2>
-        <p>Forget bookmarking sites in your browser. With keeparoo you can add links, group them and view them from any computer.</p>
-      </li>
-    </ul>
+
+          <div class="benefits-text">
+            <h2>Add Links</h2>
+            <p>Forget bookmarking sites in your browser. With keeparoo you can add links, group them and view them from any computer.</p>
+          </div>
+    </article>
+
   </section>
-  
-  <!-- Pricing -->
-  <section class="pricing">
-  <div class="pricing-bg">
-    <div class="container">
-      <h2>How much does keeparoo cost?</h2>
-      <p>We have many options to fit your needs. It’s free to try for 30 days and you can always change your plan once you sign up. Here are the different features of each plan:</p>
-      </div>
-      <ul class="container">
-        <li class="one-third">
-        <div class="box">
-          <div class="pricing-circle">
+
+<!-- pricing section -->
+  <section class="pricing container">
+
+    <div class="pricing-header">
+        <h2>How much does keeparoo cost?</h2>
+        <p>We have many options to fit your needs. It’s free to try for 30 days and you can always change your plan once you sign up. Here are the different features of each plan:</p>
+    </div>
+
+<!--pricing - free-->
+    <article class="pricing-single">
+        <div class="pricing-circle">
             <h4>Free</h4>
             <h3>Casual</h3>
-            </div>
-            <ul>
-              <li>Up to 5 pouches</li>
-              <li>Up to 10 collaborators</li>
-              <li><strong>2GB</strong> of storage</li>
-            </ul>
-            <a href="signup.html" class="pricing-btn">Start Your Free Trial Today!</a>
-          </div>
-        </li>
-        <li class="one-third">
-          <div class="box middle">
-            <div class="pricing-circle">
-              <h4><span>$</span>5<span class="month">/mo</span></h4>
-              <h3>Professional</h3>
-            </div>
-            <ul>
-              <div class="middle-text">
-              <li>Unlimited pouches</li>
-              <li>Up to 20 collaborators</li>
-              <li><strong>5GB</strong> of storage
-              </li>
-              </div>
-            </ul>
-            <a href="signup.html" class="pricing-btn">Start Your Free Trial Today!</a>
-          </div>
-        </li>
-        <li class="one-third">
-          <div class="box">
-            <div class="pricing-circle">
-              <h4><span>$</span>10<span class="month">/mo</span></h4>
-              <h3>Expert</h3>
-            </div>
-            <ul>
-              <li>Unlimited pouches</li>
-              <li>Unlimited collaborators</li>
-              <li><strong>Unlimited</strong> of storage</li>
-              <li>Real-time collaboration</li>
-            </ul>
-            <a href="signup.html" class="pricing-btn">Start Your Free Trial Today!</a>
-          </div>
-          </li>
-          </ul>
-        <div class="container pricing-small">
-           <p>*We will not collect your credit card information until your 30-day trial has ended.</p>
         </div>
+        <div class="pricing-box">
+            <p>Up to 5 pouches</p>
+            <p>Up to 10 collaborators</p>
+            <p>2 GB of storage</p>
+            <p></br></p>
+            <a href="signup.html" class="pricing-btn">Start Your Free Trial Today!</a>
         </div>
-    </section>
+    </article>
 
-<!-- Testimonials -->
-    <section class="testimonials">
-      <ul class="container">
+
+<!--pricing - $5/mo-->
+  <article class="pricing-single">
+      <div class="pricing-circle">
+          <h4><span>$</span>5<span class="month">/mo</span></h4>
+          <h3>Professional</h3>
+      </div>
+      <div class="pricing-box">
+          <p>Unlimited pouches</p>
+          <p>Up to 20 collaborators</p>
+          <p>5 GB of storage</p>
+          <p></br></p>
+          <a href="signup.html" class="pricing-btn">Start Your Free Trial Today!</a>
+      </div>
+  </article>
+
+<!--pricing - $10/mo-->
+
+<article class="pricing-single">
+      <div class="pricing-circle">
+          <h4><span>$</span>10<span class="month">/mo</span></h4>
+          <h3>Expert</h3>
+      </div>
+      <div class="pricing-box">
+          <p>Unlimited pouches</p>
+          <p>Unlimited collaborators</p>
+          <p>Unlimited of storage</p>
+          <p>Real-time collaboration</p>
+          <p> </p>
+          <a href="signup.html" class="pricing-btn">Start Your Free Trial Today!</a>
+          </div>
+  </article>
+
+  <div class="pricing-small">
+      <p>*We will not collect your credit card information until your 30-day trial has ended.</p>
+  </div>
+
+</section>
+
+<!-- testimonials section -->
+  <section class="testimonial container">
+
+      <div class="testimonial-header">
         <h2>Who uses keeparoo?</h2>
         <p>keeparoo has more than 100,000 satisfied users storing and collaborating with teams across the world. Here’s what a few have to say:</p>
-        <li class="one-third">
-        <div class="testimonials-circle">
-          <div class="testimonials-text">
-            keeparoo has made it easy to find and keep things I love. I can share with other managers and create simple text documents. keeparoo couldn’t be easier.
+      </div>
+
+      <article class="testimonial-single">
+
+        <div class="testimonial-circle">
+            <p>keeparoo has made it easy to keep things I love. I can create and share simple text documents. keeparoo couldn’t be easier.</p>
+            <div class="testimonial-name">
+              <p>Elizabeth N.<br/>Project Manager</p>
             </div>
-          <div class= "testimonials-name">
-            Elizabeth N.<br/>Project Manager
-            <img src="images/ElizabethN.jpg" alt="avatar" /></p>
-          </div>
-        </div>
-        </li>
-        <li class="one-third">
-        <div class="testimonials-circle">
-          <div class="testimonials-text">
-            keeparoo is awesome! It has helped me organize and share all of the images that I find on the internet. Thank you!
-          </div>
-          <div class= "testimonials-name">
-            Claudia L.<br/>Designer
-            <img src="images/ClaudiaL.jpg" alt="avatar" />
-          </div>
-        </div>
-        </li>
-        <li class="one-third">
-        <div class="testimonials-circle">
-        <div class="testimonials-text">
-          keeparoo has allowed me to keep and organize valuable research on current projects and collaborate with my team. Great product!
-          </div>
-          <div class= "testimonials-name">
-          Ryan S.<br/>Software Engineer <img src="images/RyanS.jpg" alt="avatar" />
-          </div>
-        </div>
-        </li>
-        </ul>
-    </section>
 
-<!-- Last Call to action -->
-     <section class="last-call">
-     <ul class="container"
-        <h2>Interested?</h2>
-        <p>Try keeparoo - It's FREE!</p>
-        <a href="signup.html" class="btn">Click Here to Get Started!</a>
-      </div>
-    </ul>
-    </section>
-  </main>
+            <div class="testimonial-avatar">
+              <img src="images/ElizabethN.jpg" alt="avatar" /></p>
+            </div>
+        </div>
 
-<!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="one-third">
-          <p>&copy; 2017. <strong>keeparoo</strong> - All Rights Reserved.<br/>
-          <a href="">Terms</a> / <a href="">Privacy Policy</a></p>
-      </div>
-        <div class="one-third">
-            <p><a href="">About Us</a> /
-            <a href="">Contact Us  </a>
-            <a href=""><i class="fa fa-envelope-o"></a></i>
-            <a class="social-icon" href=""><i class="fa fa-facebook-official"></a></i>
-            <a href=""><i class="fa fa-twitter"></i></a></p>
+      </article>
+
+      <article class="testimonial-single">
+
+        <div class="testimonial-circle">
+            <p>keeparoo is awesome! It has helped me organize and share all of the images that I find on the internet. Thank you!</p>
+
+            <div class="testimonial-name">
+              <p>Claudia L.<br/>Designer</p>
+            </div>
+
+            <div class="testimonial-avatar">
+              <img src="images/ClaudiaL.jpg" alt="avatar" />
+            </div>
+        </div>
+
+      </article>
+
+      <article class="testimonial-single">
+
+        <div class="testimonial-circle">
+          <p>keeparoo has allowed me to keep and organize valuable research on current projects and collaborate with my team. Great product!</p>
+
+          <div class= "testimonial-name">
+            <p>Ryan S.<br/>Software Engineer</p>
           </div>
-        <div class="one-third">
+
+          <div class="testimonial-avatar">
+            <img src="images/RyanS.jpg" alt="avatar" />
+          </div>
+        </div>
+
+      </article>
+
+  </section>
+
+<!-- last call to action section -->
+  <section class="last-call container">
+
+    <div class="last-call-text">
+      <h2>Interested?</h2>
+      <p>Try keeparoo - It's FREE!</p>
+    </div>
+    <div class="last-call-button">
+      <a href="signup.html" class="btn">Click Here to Get Started!</a>
+  </div>
+
+</section>
+
+<!-- footer -->
+<section class="footer">
+
+    <div class="footer-container">
+
+      <div class="copyright-info">
+          <p>&copy; 2017 keeparoo - All Rights Reserved</p>
+          <a href="">Terms</a> / <a href="">Privacy Policy</a>
+      </div>
+
+      <div class="general-info">
+          <div class="about-contact">
+            <a href="">About Us</a><span class="space">/</span>
+            <a href="">Contact Us</a>
+          </div>
+
+          <div class="social-bar">
+            <a href=""><i class="fa fa-envelope-square fa-lg"></i></a>
+            <a href=""><i class="fa fa-facebook-official fa-lg"></i></a>
+            <a href=""><i class="fa fa-twitter fa-lg"></i></a>
+        </div>
+      </div>
+
+      <div class="logo">
           <img src="images/Site-logo.png" alt="keeparoo" />
-          </div>
-  </footer>
+      </div>
+
+      </div>
+
+</section>
+
+<script defer="" src="https://use.fontawesome.com/ef802777b5.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
